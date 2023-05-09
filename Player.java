@@ -1,6 +1,6 @@
 package StoneGame;
 
-public class Player {
+public class Player{
     String name;//プレイヤー名
     int wins;//勝ち数
 

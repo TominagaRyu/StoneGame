@@ -1,9 +1,11 @@
 package StoneGame;
 
+import oop.App;
+
 import java.security.PrivateKey;
 import java.util.Scanner;
 
-public class StoneGame {
+public class StoneGame implements App{
     private Player[] players;
     private  int totalNumberOfStone = 25;
     private int numberOfStonesLeft;
